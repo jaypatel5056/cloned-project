@@ -4,13 +4,20 @@ document.addEventListener("DOMContentLoaded", function(){
     var navbarLinks = document.getElementById("navbar-links");
     var menu=document.getElementById("menu")
     var whole=document.getElementById("whole")
+    var closebtn=document.getElementById("close-btn")
     navbarIcon.addEventListener("click", function() {
         navbarLinks.classList.toggle("open");
-        // whole.classList.toggle("open")
+        whole.classList.toggle("active")
+
+    })
+    closebtn.addEventListener("click",function(){
+      navbarLinks.classList.toggle("open");
+      whole.classList.toggle("active");
 
     });
  });
- function togglePopUp(){document.getElementById("navbar-links").classList.toggle("open");
+ function togglePopUp(){
+  document.getElementById("navbar-links").classList.toggle("open");
 
  }
  var a = 0;

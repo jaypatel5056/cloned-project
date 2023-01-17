@@ -73,6 +73,15 @@ cursor: pointer;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
+
+#whole.active{
+  /* background-color: rgb(76,76,76); */
+filter: blur(5px);
+opacity: 0.8;
+background-color: rgba(0,0,0,0.8);
+pointer-events: none;
+user-select: none;
+}
 #navbar-links.open {
   display: block;
   opacity: 1;
@@ -364,6 +373,7 @@ z-index: 1;
   width: 1000px;
   height: 1000px;
 }
+
 
 .aboutus-section {
   background-color: rgb(234, 242, 253);
