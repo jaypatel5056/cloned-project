@@ -1,0 +1,136 @@
+@media screen and (max-width: 600px) {
+  #navbar {
+    display: flex;
+    align-items: center;
+    /* background-color: #333; */
+    /* color: #fff; */
+    height: 75px;
+    width: 90%;
+    margin: auto;
+    width: 100%;
+  }
+  #navbar-icon {
+    width: 100px;
+    padding: 0;
+    height: 100%;
+    justify-content: flex-end;
+  }
+  #rectangle {
+    /* display: none; */
+    width: 340px;
+    min-height: 382px;
+    height: 50%;
+    margin-left: calc(((100% - 340px) / 2));
+  }
+  #p1{
+    font-size: 3.5rem;
+  }
+  #section1-place {
+    width: 100%;
+    align-items: center;
+  }
+  .square-section {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* min-width: 400px;
+    min-height: 200px; */
+  }
+  .map-section1 {
+    /* flex-wrap: wrap;  */
+    /* min-width: 400px;
+    min-height: 200px; */
+    width: 100%;
+  }
+  .map-image {
+    display: block;
+  }
+  .form {
+    display: block;
+  }
+  .services-section {
+    flex-wrap: wrap;
+  }
+
+  .wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+  .get-services-btn {
+    display: block;
+  }
+  .services-section #section1-place {
+    flex-wrap: wrap;
+  }
+  .aboutus-section h1{
+    padding-top: 100px;
+  }
+  .services-section{
+    display: block;
+    /* flex-direction: column; */
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+  .map-section1{
+    display: block;
+    /* flex-direction: column; */
+    /* padding: 100px; */
+    width: 100%;
+  }
+  .exp-section{
+    flex-direction: column;
+    display: block;
+
+  }
+  .map-image1{
+    width: 100%;
+    /* height: 100%; */
+  }
+  .map-image{
+    width: 100%;
+  }
+  .form{
+    width: 100%;
+  }
+  .get-services-btn{
+    align-items: center;
+  }
+  .services-btn{width: 100%;display: flex; align-items: center;justify-content: center; }
+  .aboutus-columns{
+    flex-direction: column;
+  }
+  .aboutus-column{
+    margin-bottom: 30px;
+  }
+  .counter{
+    flex-direction: column;
+  }
+  .counter-section #section1-place h2,p{
+
+    
+
+  }
+  .square1{
+    width: 80%;
+  }
+  .square{
+    width: 70%;
+  }
+  .map-section .map-section1{
+    width: 80%;
+  }
+  .exp-img{
+    width: 100%;
+    height: 100%;
+    /* flex-basis: auto; */
+    background-size: cover;
+  }
+  .counter-section #section1-place h2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

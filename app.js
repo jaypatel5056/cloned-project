@@ -1,4 +1,4 @@
-
+var i=0;
 document.addEventListener("DOMContentLoaded", function(){
     var navbarIcon = document.getElementById("navbar-icon");
     var navbarLinks = document.getElementById("navbar-links");
@@ -8,6 +8,13 @@ document.addEventListener("DOMContentLoaded", function(){
     navbarIcon.addEventListener("click", function() {
         navbarLinks.classList.toggle("open");
         whole.classList.toggle("active")
+        i=1;        
+        // document.addEventListener("click", function(event) {
+        //   if (event.target.tagName !== "A") {
+        //       // Call your function here
+        //       togglePopUp();
+        //   }
+        // });
 
     })
     closebtn.addEventListener("click",function(){
@@ -16,8 +23,16 @@ document.addEventListener("DOMContentLoaded", function(){
 
     });
  });
+ document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape" && i===1) {
+      // Call your function here
+      togglePopUp();
+  }
+});
+
  function togglePopUp(){
   document.getElementById("navbar-links").classList.toggle("open");
+  document.getElementById("whole").classList.toggle("active");
 
  }
  var a = 0;
