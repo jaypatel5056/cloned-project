@@ -22,7 +22,7 @@
     height: 50%;
     margin-left: calc(((100% - 340px) / 2));
   }
-  #p1{
+  #p1 {
     font-size: 3.5rem;
   }
   #section1-place {
@@ -61,76 +61,85 @@
   .services-section #section1-place {
     flex-wrap: wrap;
   }
-  .aboutus-section h1{
+  .aboutus-section h1 {
     padding-top: 100px;
   }
-  .services-section{
+  .services-section {
     display: block;
     /* flex-direction: column; */
     height: 400px;
     align-items: center;
     justify-content: center;
   }
-  .map-section1{
+  .map-section1 {
     display: block;
     /* flex-direction: column; */
     /* padding: 100px; */
     width: 100%;
   }
-  .exp-section{
+  .exp-section {
     flex-direction: column;
+    /* display: block; */
+    margin-bottom: -150px;
+  }
+  .map-image1 {
     display: block;
-
+    height: 400px;
   }
-  .map-image1{
-    width: 100%;
-    /* height: 100%; */
-  }
-  .map-image{
+  .map-image {
     width: 100%;
   }
-  .form{
+  .form {
     width: 100%;
   }
-  .get-services-btn{
+  .get-services-btn {
     align-items: center;
   }
-  .services-btn{width: 100%;display: flex; align-items: center;justify-content: center; }
-  .aboutus-columns{
+  .services-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutus-columns {
     flex-direction: column;
   }
-  .aboutus-column{
+  .aboutus-column {
     margin-bottom: 30px;
   }
-  .counter{
+  .counter {
     flex-direction: column;
   }
-  .counter-section #section1-place h2,p{
-
-    
-
+  .counter-section #section1-place h2,
+  p {
   }
-  .square1{
+  .square1 {
     width: 80%;
   }
-  .square{
+  .square {
     width: 70%;
   }
-  .map-section .map-section1{
+  .map-section .map-section1 {
     width: 80%;
   }
-  .exp-img{
+  .exp-img {
     width: 100%;
-    height: 100%;
+    height: 500px;
+    /* max-width: 100%;
+    height: 100%; */
     /* flex-basis: auto; */
     background-size: cover;
+    background-position: center;
   }
-  .counter-section #section1-place h2{
-    
+  .counter-section #section1-place h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
   }
+}
+
+* {
+  font-family: "Roboto", sans-serif;
 }
